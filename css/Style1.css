@@ -1,0 +1,147 @@
+ a {
+    color: #5b5d5f;
+    cursor: pointer;
+}  
+.a:focus, a:hover {
+    color: #e76d20;
+}
+.navbar .navbar-nav .nav-item a {
+    padding-right: 48%;
+    padding-left: 8%;
+    margin-top: 8%;
+    font-family: inherit;
+}
+.navbar .navbar-nav .nav-item a:active {
+    padding-right: 48%;
+    padding-left: 8%;
+    margin-top: 8%;
+    font-family: inherit;
+    background-color: red;
+}
+
+
+.btn-primary {
+    background: #DE7B3C;
+    color: #fff !important;
+}
+.navbar .navbar-nav .nav-item a {
+    padding-right: 59px;
+    padding-left: 8px;
+}
+.modal-open .modal {
+    overflow-x: scroll;
+    overflow-y: auto;
+}.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2000;
+    display: none;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+}
+.md-forem-prefix.actice{
+    color:#EC8119;
+}
+.al{
+    margin-top: 0;
+    margin-right: 166px;
+}
+header{
+    display: block;
+    background-color:white;
+}
+
+
+        .md-form label.active{
+        font-size:1.0rem;
+        }
+        .label{
+        color:orange;
+        }
+        .navbar .navbar-nav .nav-item a {
+        padding-right: 56%;
+        padding-left: 0%;
+        margin-top: 5%;
+        font-family: inherit;
+        }
+        .Ho{
+        margin-top: 0%;
+        }
+        .Ho.actve{
+        margin-top: 11%;
+        }
+        
+        .navbar .navbar-nav .nav-item a.avtive {
+        padding-right: 48%;
+        padding-left: 8%;
+        margin-top: 11%;
+        font-family: inherit;
+        }
+        .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
+    color: #ff7713;
+    background-color: #fff;
+    border-color: #ea1717 #ff0a0a #db171709;
+    }
+
+
+/*Registration Form*/
+
+.Registration{
+        margin-top:10%;
+        margin-left:30%;
+        margin-right:30%;
+        }   
+
+        .Basic{
+            border: 1px;
+            border-top: 1px;
+        }
+        .space{
+        margin-top: 53px;
+        }
+        .spacecnf{
+        margin-top: 80px;
+        }
+        h1{
+        font-family: 'Lobster Two', cursive;
+        }
+
+
+        @media only screen and (max-width: 500px) {
+        .RForm{
+        margin-top: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+        }
+        
+        }@media only screen and (min-width: 1020px) {
+        .RForm{
+        margin-top: 100px;
+        margin-left: 230px;
+        margin-right: 230px;
+        }
+        .regtitle{
+        font-family: 'Droid Serif', serif;
+        margin-left: 30%;
+        }
+        
+        .RForm{
+        border:solid 1px black;
+        }
+        .card {
+        border: 0;
+        margin-left: 1%;
+        margin-right: 1%;
+        }
+        
+        }
+
+        h1 {
+    font-family: 'Lobster Two', cursive;
+    font-family: "Open Sans","OpenSans",sans-serif;
+    letter-spacing: 5px;
+}
+        
