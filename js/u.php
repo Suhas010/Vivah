@@ -1,0 +1,9 @@
+<?php
+//function GetAbsolutePath(){
+$host  = $_SERVER['HTTP_HOST'];
+	$uri   = rtrim(dirname(dirname($_SERVER['PHP_SELF'])), '//');
+	$home_page = "http://$host$uri/";
+//	return $home_page;	
+echo "$home_page";
+//}
+?>
