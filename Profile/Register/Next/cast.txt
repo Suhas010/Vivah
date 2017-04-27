@@ -1,0 +1,495 @@
+
+                                    1Ad Dharmi
+                                    2Adi Andhra
+                                    3Adi Dravida
+                                    4Adi KANNADA
+                                    5Agarwal
+                                    6Agnikula Kshatriya
+                                    7Agri
+                                    8Ahir Shimpi
+                                    9Ahom
+                                    10Ambalavasi
+                                    11Arekatica
+                                    12Arora
+                                    13Arunthathiyar
+                                    14Arya Vysya
+                                    15Ayyaraka
+                                    16Badaga
+                                    17Bagdi
+                                    18Baidya
+                                    19Baishnab
+                                    20Baishya
+                                    21Bajantri
+                                    22Balija
+                                    23Banayat ORIYA
+                                    24Banik
+                                    25Baniya
+                                    26Baniya - Bania
+                                    27Baniya - Kumuti
+                                    28Banjara
+                                    29Barai
+                                    30Bari
+                                    31Baria
+                                    32Barujibi
+                                    33Besta
+                                    34Bhandari
+                                    35Bhatia
+                                    36Bhatraju
+                                    37Bhavasar Kshatriya
+                                    38Bhoi
+                                    39Bhovi
+                                    40Bhoyar
+                                    41Billava
+                                    42Bishnoi/Vishnoi
+                                    43Bondili
+                                    44Boyar
+                                    45Brahmbatt
+                                    46Brahmin - Anavil
+                                    47Brahmin - Audichya
+                                    48Brahmin - Barendra
+                                    49Brahmin - Bhatt
+                                    50Brahmin - Bhumihar
+                                    51Brahmin - Daivadnya
+                                    52Brahmin - Danua
+                                    53Brahmin - Deshastha
+                                    54Brahmin - Dhiman
+                                    55Brahmin - Dravida
+                                    56Brahmin - GARHWALI
+                                    57Brahmin - Gaur
+                                    58Brahmin - Goswami/Gosavi
+                                    59Brahmin - Gujar Gaur
+                                    60Brahmin - Gurukkal
+                                    61Brahmin - Halua
+                                    62Brahmin - Havyaka
+                                    63Brahmin - Hoysala
+                                    64Brahmin - Iyengar
+                                    65Brahmin - Iyer
+                                    66Brahmin - Jangid
+                                    67Brahmin - Jhadua
+                                    68Brahmin - Jyotish
+                                    69Brahmin - Kanyakubj
+                                    70Brahmin - Karhade
+                                    71Brahmin - Khandelwal
+                                    72Brahmin - Kokanastha
+                                    73Brahmin - Kota
+                                    74Brahmin - Kulin
+                                    76Brahmin - Kumaoni
+                                    77Brahmin - Madhwa
+                                    78Brahmin ? Maithil
+                                    79Brahmin - Modh
+                                    80Brahmin - Mohyal
+                                    81Brahmin - Nagar
+                                    82Brahmin - Namboodiri
+                                    83Brahmin - Narmadiya
+                                    84Brahmin - Narmadiya 
+                                    85Brahmin - Niyogi
+                                    86Brahmin - Others
+                                    87Brahmin - Paliwal
+                                    88Brahmin - Panda
+                                    89Brahmin - Pandit
+                                    90Brahmin - Pareek
+                                    91Brahmin - Pushkarna
+                                    92Brahmin - Rarhi
+                                    93Brahmin - Rigvedi
+                                    94Brahmin - Rudraj
+                                    95Brahmin - Sakaldwipi
+                                    96Brahmin - Sanadya
+                                    97Brahmin - Sanketi
+                                    98Brahmin - Saraswat
+                                    99Brahmin - Saryuparin
+                                    100Brahmin - Shivhalli
+                                    101Brahmin - Shrimali
+                                    102Brahmin - Sikhwal
+                                    103Brahmin - Smartha
+                                    104Brahmin - Sri Vaishnava
+                                    105Brahmin - Stanika
+                                    106Brahmin - Tyagi
+                                    107Brahmin - Vaidiki
+                                    108Brahmin - Vaikhanasa
+                                    109Brahmin - Velanadu
+                                    110Brahmin - Vyas
+                                    111Brajastha Maithil
+                                    112Bunt (Shetty)
+                                    113Chalawadi and Holeya
+                                    114Chambhar
+                                    115Chandravanshi Kahar
+                                    116Chasa
+                                    117Chattada Sri Vaishnava
+                                    118Chattada Sri Vaishnava 
+                                    119Chaudary
+                                    120Chaurasia
+                                    121Chennadasar
+                                    122Chettiar
+                                    123Chhetri
+                                    124Chippolu (Mera)
+                                    125CKP
+                                    126Coorgi
+                                    127Devadiga
+                                    128Devandra Kula Vellalar
+                                    129Devang Koshthi
+                                    130Devanga
+                                    131Devar/Thevar/Mukkulathor
+                                    132Devrukhe Brahmin
+                                    133Dhangar
+                                    134Dheevara
+                                    135Dhiman
+                                    136Dhoba
+                                        137Dhobi
+                                        138Dhor / Kakkayya
+                                        139Dommala
+                                        140Dumal
+                                        141Dusadh (Paswan)
+                                        142Ediga
+                                        143Ezhava
+                                        144Ezhuthachan
+                                        145Gabit
+                                        146Ganda
+                                        147Gandla
+                                        148Ganiga
+                                        149Garhwali
+                                        150Gatti
+                                        151Gavara
+                                        152Gawali
+                                        153Ghisadi
+                                        154Ghumar
+                                        155Goala
+                                        156Goan
+                                        157Gomantak
+                                        158Gondhali
+                                        159Goud
+                                        160Gounder
+                                        161Gowda
+                                        162Gramani
+                                        163Gudia
+                                        164Gujjar
+                                        165Gupta
+                                        166Guptan
+                                        167Gurav
+                                        168Gurjar
+                                        169Halba Koshti
+                                        170Helava
+                                        171Hugar (Jeer)
+                                        172Intercaste
+                                        173Irani
+                                        174Jaalari
+                                        175Jaiswal
+                                        176Jandra
+                                        177Jangam
+                                        178Jangra - Brahmin
+                                        179Jat
+                                        180Jatav
+                                        181Jetty/Malla
+                                        182Jijhotia Brahmin
+                                        183Jogi (Nath)
+                                        184Kachara
+                                        185Kadava Patel
+                                        186Kahar
+                                        187Kaibarta
+                                        188Kalal
+                                        189Kalanji
+                                        190Kalar
+                                        191Kalinga
+                                        192Kalinga Vysya
+                                        193Kalita
+                                        194Kalwar
+                                        195Kamboj
+                                        196Kamma
+                                        197Kansari
+                                        198Kapu
+                                        199Karana
+                                        200Karmakar
+                                        201Karuneegar
+                                        202Kasar
+                                        203Kashyap
+                                        204Katiya
+                                        205Kavuthiyya/Ezhavathy
+                                        206Kayastha
+                                        207Khandayat
+                                        208Khandelwal
+                                        209Kharwa
+                                        210Kharwar
+                                        211Khatri
+                                        212Kirar
+                                        213Kokanastha Maratha
+                                        214Koli
+                                        215Koli Mahadev
+                                        216Koli Patel
+                                        217Kongu Vellala Gounder
+                                        218Korama
+                                        219Kori
+                                        220Kosthi
+                                        221Krishnavaka
+                                        222Kshatriya
+                                        223Kudumbi
+                                        224Kulal
+                                        225Kulalar
+                                        226Kulita
+                                        227Kumawat
+                                        228Kumbhakar
+                                        229Kumbhar
+                                        230Kumhar
+                                        231Kummari
+                                        232Kunbi
+                                        233Kuravan
+                                        234Kurmi/Kurmi Kshatriya
+                                        235Kuruba
+                                        236Kuruhina Shetty
+                                        237Kurumbar
+                                        238Kushwaha (Koiri)
+                                        239Lambadi
+                                        240Leva patel
+                                        241Leva patil
+                                        242Lingayath
+                                        243Lodhi Rajput
+                                        244Lohana
+                                        245Lohar
+                                        246Loniya
+                                        247Lubana
+                                        248Madiga
+                                        249Mahajan
+                                        250Mahar
+                                        251Mahendra
+                                        252Maheshwari
+                                        253Mahishya
+                                        254Majabi
+                                        255Mala
+                                        256Mali
+                                        257Mallah
+                                        258Malviya Brahmin
+                                        259Mangalorean
+                                        260Mapila
+                                        261Maratha
+                                        262Maruthuvar
+                                        263Matang
+                                        264Mathur
+                                        265Maurya / Shakya
+                                        266Meena
+                                        267Meenavar
+                                        268Mehra
+                                        269Meru Darji
+                                        270Mochi
+                                        271Modak
+                                        272Mogaveera
+                                        273Mudaliyar
+                                        274Mudiraj
+                                        275Munnuru Kapu
+                                        277Muthuraja
+                                        278Naagavamsam
+                                        279Nadar
+                                        280Nagaralu
+                                        281Nai
+                                        282Naicker
+                                        283Naidu
+                                        284Naik
+                                        285Nair
+                                        286Namasudra / Namassej
+                                        287Nambiar
+                                        288Napit
+                                        289Nayaka
+                                        290Neeli
+                                        291Nhavi
+                                        292Oswal
+                                        293Otari
+                                        294Padmasali
+                                        295Pal
+                                        296Panchal
+                                        297Pandaram
+                                        298Panicker
+                                        299Parkava Kulam
+                                        300Parsi
+                                        301Partraj
+                                        302Pasi
+                                        303Patel
+                                        304Pathare Prabhu
+                                        305Patnaick/Sistakaranam
+                                        306Patra
+                                        307Perika
+                                        308Pillai
+                                        309Poosala
+                                        310Porwal
+                                        311Prajapati
+                                        312Raigar
+                                        313Rajaka
+                                        314Rajastani
+                                        315Rajbhar
+                                        316Rajbonshi
+                                        317Rajpurohit
+                                        318Rajput
+                                        319Ramanandi
+                                        320Ramdasia
+                                        321Ramgariah
+                                        322Ramoshi
+                                        323Ravidasia
+                                        324Rawat
+                                        325Reddy
+                                        326Relli
+                                        327Ror
+                                        328Sadgope
+                                        329Sagara (Uppara)
+                                        330Saha
+                                        331Sahu
+                                        332Saini
+                                        333Saliya
+                                        334Sathwara
+                                        335Savji
+                                        336SC
+                                        337Senai Thalaivar
+                                        338Senguntha Mudaliyar
+                                        339Settibalija
+                                        340Shimpi/Namdev
+                                        341Sindhi-Amil
+                                        342Sindhi-Baibhand
+                                        343Sindhi-Bhanusali
+                                        344Sindhi-Bhatia
+                                        345Sindhi-Chhapru
+                                        346Sindhi-Dadu
+                                        347Sindhi-Hyderabadi
+                                        348Sindhi-Larai
+                                        349Sindhi-Larkana
+                                        350Sindhi-Lohana
+                                        351Sindhi-Rohiri
+                                        352Sindhi-Sahiti
+                                        353Sindhi-Sakkhar
+                                        354Sindhi-Sehwani
+                                        355Sindhi-Shikarpuri
+                                        356Sindhi-Thatai
+                                        357SKP
+                                        358Sonar
+                                        359Soni
+                                        360Sozhiya Vellalar
+                                        361Srisayana
+                                        362ST
+                                        363ENGLISH
+                                        364Sunari
+                                        365Sundhi
+                                        366Surya Balija
+                                        367Suthar
+                                        368Swakula Sali
+                                        369Tamboli
+                                        370Tanti
+                                        371Tantubai
+                                        372Telaga
+                                        373Teli
+                                        374Thakkar
+                                        375Thakore
+                                        376Thakur
+                                        377Thigala
+                                        378Thiyya
+                                        379Tili
+                                        380Togata
+                                        381Tonk Kshatriya
+                                        382Turupu Kapu
+                                        383Urali Gounder
+                                        384Urs
+                                        385Vada Balija
+                                        386Vaddera
+                                        387Vaish
+                                        388Vaishnav
+                                        389Vaishnava
+                                        390Vaishya
+                                        391Vaishya Vani
+                                        392Valluvan
+                                        393Valmiki
+                                        394Vania
+                                        395Vanika Vyshya
+                                        396Vaniya
+                                        397Vanjara
+                                        398Vanjari
+                                        399Vankar
+                                        400Vannar
+                                        401Vannia Kula Kshatriyar
+                                        402Variar
+                                        403Varshney
+                                        404Veera Saivam
+                                        405Velaan
+                                        406Velama
+                                        407Vellalar
+                                        408Veluthedathu Nair
+                                        409Vettuva Gounder
+                                        410Vilakkithala Nair
+                                        411Vishwakarma
+                                        412Viswabrahmin
+                                        413Vokkaliga
+                                        414Vysya
+                                        415Yadav
+                                        416Yellapu
+                                        417Brahmin - Embrandiri
+                                        418Ansari
+                                        419Arain
+                                        420Awan
+                                        421Bohra
+                                        422Dekkani
+                                        423Dudekula
+                                        424Hanafi
+                                        425Jat
+                                        426Khoja
+                                        427Lebbai
+                                        428Malik
+                                        429Mapila
+                                        430Maraicar
+                                        431Memon
+                                        432Mughal
+                                        433Others
+                                        434Pathan
+                                        435Qureshi
+                                        436Rajput
+                                        437Rowther
+                                        438Shafi
+                                        439Sheikh
+                                        440Siddiqui
+                                        441Syed
+                                        442UnSpecified
+                                        443Born Again
+                                        444Bretheren
+                                        445Church of South India
+                                        446Evangelist
+                                        447Jacobite
+                                        448Knanaya
+                                        449Knanaya Catholic
+                                        450Knanaya Jacobite
+                                        451Latin Catholic
+                                        452Malankara
+                                        453Marthoma
+                                        454Others
+                                        455Pentecost
+                                        456Roman Catholic
+                                        457Seventh-day Adventist
+                                        458Syrian Catholic
+                                        459Syrian Jacobite
+                                        460Syrian Orthodox
+                                        461Syro Malabar
+                                        463Ahluwalia
+                                        464Arora
+                                        465Bhatia
+                                        466Bhatra
+                                        467Ghumar
+                                        468Intercaste
+                                        469Jat
+                                        470Kamboj
+                                        471Khatri
+                                        472Kshatriya
+                                        473Lubana
+                                        474Majabi
+                                        475Nai
+                                        476Others
+                                        477Rajput
+                                        478Ramdasia
+                                        479Ramgharia
+                                        480Ravidasia
+                                        481Saini
+                                        482Tonk Kshatriya
+                                        484Agarwal
+                                        485Bania
+                                        486Intercaste
+                                        487Jaiswal
+                                        488KVO
+                                        489Khandelwal
+                                        490Kutchi
+                                        491Oswal
+                                        492Others
+                                        493Porwal
+                                        495Vaishya
+                                        496Intercaste
+                                        497Irani
+                                        498Parsi
+                                        499Dont wish to specify
