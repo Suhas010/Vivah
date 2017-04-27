@@ -1,0 +1,20 @@
+CREATE TABLE `hall_details` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`country_id` INT(11) NOT NULL,
+	`state_id` INT(11) NOT NULL,
+	`city_id` INT(11) NOT NULL,
+	`address_details` TINYTEXT NOT NULL,
+	`owner_name VARCHAR(80) NOT NULL,
+	`contact_no` VARCHAR(40) NOT NULL,
+	`contact_email` VARCHAR(30) NOT NULL,
+	PRIMARY KEY (`id`),
+	INDEX `country_FK` (`country_id`),
+	INDEX `state_FK` (`state_id`),
+	INDEX `city_FK` (`city_id`),
+	CONSTRAINT `city_FK` FOREIGN KEY (`city_id`) REFERENCES `cities` (`id`) ON UPDATE CASCADE ON DELETE NO ACTION,
+	CONSTRAINT `country_FK` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`) ON UPDATE CASCADE ON DELETE NO ACTION,
+	CONSTRAINT `state_FK` FOREIGN KEY (`state_id`) REFERENCES `states` (`id`) ON UPDATE CASCADE ON DELETE NO ACTION
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+;
