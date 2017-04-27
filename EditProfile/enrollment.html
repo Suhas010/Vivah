@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My profile Vivah</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		
+		<link rel="icon" type="text/css" href="http://192.168.43.169/Vivah_MDB/img/images/Logo_Tab.png">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.font.css">
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Material Design Bootstrap -->
+		<link href="css/mdb.min.css" rel="stylesheet">
+		<!-- Your custom styles (optional) -->
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/Style1.css">
+		<link rel="stylesheet" type="text/css" href="css/Common.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<style>
+		.row {
+			margin-right: 0px;
+			margin-left: -15px;
+			}
+		
+		.input[type="date"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="search-md"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="text"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly])
+		{
+			border-bottom: 1px solid #F06F10;
+			box-shadow: 0 1px 0 0 #F26106;
+		}
+		.green-gradient, .green-skin .side-nav {
+		background: #000;
+		background: -moz-linear-gradient(-45deg,#000 0,#003830 100%);
+		background: -webkit-linear-gradient(-45deg,#000 0,#003830 100%);
+		background: linear-gradient(135deg,#ffb101 0,#fe6306 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#003830', GradientType=1 );
+		}
+		.md-form label {
+		color: #757575;
+		position: absolute;
+		top: 0.8rem;
+		letter-spacing: 5px;
+		font-weight: 400;
+		left: 16px;
+		font-size: 1em;
+		cursor: text;}
+		.input[type="date"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="search-md"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="text"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly])
+		{
+		border-bottom: 2px solid #F06F10;
+		box-shadow: 0 1px 0 0 #F26106;}
+		.input[type="datetime-local"], input[type="email"], input[type="number"], input[type="password"],input[type="search-md"], input[type="search"], input[type="tel"], input[type="text"], textarea.md-textarea {
+		background-color: #1a070700;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		border-radius: 0;
+		outline: 0;
+		height: 1.4rem;
+		width: 75%;
+		font-size: 1.5rem;
+		}
+		.input[type="number"],input[type="search-md"], input[type="search"], input[type="tel"], input[type="text"], textarea.md-textarea {
+		text-transform:uppercase
+		}
+		.input[typee="email"], textarea.md-textarea{
+		text-transform: lowercase;
+		}
+		/* Gender Radio Buttons*/
+		
+		[type="radio"]:checked + label::after{   top: -4px;
+		top: -4px;
+		left: -7px;
+		width: 12px;
+		height: 26px;
+		border-top: 2px solid transparent;
+		border-left: 2px solid transparent;
+		border-right: 4px solid #1AB90F;
+		border-bottom: 7px solid #10AD18;
+		-webkit-transform: rotate(40deg);
+		-moz-transform: rotate(40deg);
+		-ms-transform: rotate(40deg);
+		-o-transform: rotate(40deg);
+		transform: rotate(40deg);
+		-webkit-backface-visibility: hidden;
+		-webkit-transform-origin: 100% 100%;
+		-moz-transform-origin: 100% 100%;
+		-ms-transform-origin: 100% 100%;
+		-o-transform-origin: 100% 100%;
+		transform-origin: 100% 100%;}
+		
+		.card .form-header {
+		color: #fff;
+		align-content: center;
+		text-align: center;
+		margin-top: -60px;
+		margin-bottom: 3rem;
+		padding: 0.1%;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+		-o-border-radius: 2px;
+		border-radius: 25px;
+		}
+		.cn {
+		margin-left: 6%;
+		margin-right: 5%;
+		}
+		.nav-tabs {
+		border: 0;
+		padding: .7rem;
+		margin-left: 1rem;
+		padding-left: 29%;
+		margin-right: 1rem;
+		margin-bottom: -20px;
+		z-index: 2;
+		position: relative;
+		}
+		.opt {
+			font-size: 15px;
+				letter-spacing: 6px;
+			}
+			.bg{background-image: url(http://192.168.43.169/Vivah_MDB/img/images/FormImg.jpg); }
+			.op {
+		font-size: 22px;
+		letter-spacing: 9px;
+		font-weight: 400;
+		}
+		.op.active{
+		background-color: green;
+		}
+		</style>
+		<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+			$(document).ready(function() {
+		$('.mdb-select').material_select();
+		});
+		</script>
+	</head>
+	<body>
+
+	
+	
+
+<div class="container-fluid">
+<br>
+<br>
+<br>
+<div class="col-md-3">
+
+    <!--Card-->
+    <div class="card card-cascade">
+
+        <!--Card image-->
+        <div class="view overlay hm-white-slight">
+            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2842%29.jpg" class="img-fluid" alt="">
+            <a>
+                <div class="mask"></div>
+            </a>
+        </div>
+        <!--/.Card image-->
+
+        <!--Card content-->
+        <div class="card-block text-xs-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>Basic</strong></h4>
+            <h5>Web developer</h5>
+
+            <p class="card-text"><b>Starts at</b><br><i class="fa fa-inr" aria-hidden="true"></i>100/10 days
+            </p>
+
+            <!--Facebook-->
+            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+        </div>
+        <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+</div>
+
+<div class="col-md-3">
+
+    <!--Card-->
+    <div class="card card-cascade">
+
+        <!--Card image-->
+        <div class="view overlay hm-white-slight">
+            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2842%29.jpg" class="img-fluid" alt="">
+            <a>
+                <div class="mask"></div>
+            </a>
+        </div>
+        <!--/.Card image-->
+
+        <!--Card content-->
+        <div class="card-block text-xs-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>Platinum</strong></h4>
+            <h5>Web developer</h5>
+
+            <p class="card-text"><b>Starts at</b><br><i class="fa fa-inr" aria-hidden="true"></i>300/20 days
+            </p>
+
+
+            <!--Facebook-->
+            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+        </div>
+        <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+</div>
+<div class="col-md-3">
+
+    <!--Card-->
+    <div class="card card-cascade">
+
+        <!--Card image-->
+        <div class="view overlay hm-white-slight">
+            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2842%29.jpg" class="img-fluid" alt="">
+            <a>
+                <div class="mask"></div>
+            </a>
+        </div>
+        <!--/.Card image-->
+
+        <!--Card content-->
+        <div class="card-block text-xs-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>Silver</strong></h4>
+            <h5>Web developer</h5>
+
+			<p class="card-text"><b>Starts at</b><br><i class="fa fa-inr" aria-hidden="true"></i>500/month
+            </p>
+
+
+            <!--Facebook-->
+            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+        </div>
+        <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+</div>
+
+<div class="col-md-3">
+
+    <!--Card-->
+    <div class="card card-cascade">
+
+        <!--Card image-->
+        <div class="view overlay hm-white-slight">
+            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2842%29.jpg" class="img-fluid" alt="">
+            <a>
+                <div class="mask"></div>
+            </a>
+        </div>
+        <!--/.Card image-->
+
+        <!--Card content-->
+        <div class="card-block text-xs-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>Gold</strong></h4>
+            <h5>Web developer</h5>
+
+            <p class="card-text"><div class="bst">BEST SELLER</div><b>Starts at</b><br><i class="fa fa-inr" aria-hidden="true"></i>1000/6 month
+            </p>
+
+            <!--Facebook-->
+            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+        </div>
+        <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+</div>
+
+</div>
+
+						<!--*********************        Script       ***********************-->
+						<!-- JQuery -->
+						
+						<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+						<!-- Bootstrap tooltips -->
+						<script type="text/javascript" src="js/tether.min.js"></script>
+						<!-- Bootstrap core JavaScript -->
+						<script type="text/javascript" src="js/bootstrap.min.js"></script>
+						<!-- MDB core JavaScript -->
+						<script type="text/javascript" src="js/mdb.min.js"></script>
+						
+						<!--**********************        /Script      **********************-->
+					</body>
+				</html>

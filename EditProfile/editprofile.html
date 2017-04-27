@@ -1,0 +1,861 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My profile Vivah</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		
+		<link rel="icon" type="text/css" href="http://192.168.43.169/Vivah_MDB/img/images/Logo_Tab.png">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.font.css">
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Material Design Bootstrap -->
+		<link href="css/mdb.min.css" rel="stylesheet">
+		<!-- Your custom styles (optional) -->
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/Style1.css">
+		<link rel="stylesheet" type="text/css" href="css/Common.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<style>
+		.row {
+			margin-right: 0px;
+			margin-left: -15px;
+			}
+		
+		.input[type="date"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="search-md"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="text"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly])
+		{
+			border-bottom: 1px solid #F06F10;
+			box-shadow: 0 1px 0 0 #F26106;
+		}
+		.green-gradient, .green-skin .side-nav {
+		background: #000;
+		background: -moz-linear-gradient(-45deg,#000 0,#003830 100%);
+		background: -webkit-linear-gradient(-45deg,#000 0,#003830 100%);
+		background: linear-gradient(135deg,#ffb101 0,#fe6306 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#003830', GradientType=1 );
+		}
+		.md-form label {
+		color: #757575;
+		position: absolute;
+		top: 0.8rem;
+		letter-spacing: 5px;
+		font-weight: 400;
+		left: 16px;
+		font-size: 1em;
+		cursor: text;}
+		.input[type="date"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="search-md"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="text"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly])
+		{
+		border-bottom: 2px solid #F06F10;
+		box-shadow: 0 1px 0 0 #F26106;}
+		.input[type="datetime-local"], input[type="email"], input[type="number"], input[type="password"],input[type="search-md"], input[type="search"], input[type="tel"], input[type="text"], textarea.md-textarea {
+		background-color: #1a070700;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		border-radius: 0;
+		outline: 0;
+		height: 1.4rem;
+		width: 75%;
+		font-size: 1.5rem;
+		}
+		.input[type="number"],input[type="search-md"], input[type="search"], input[type="tel"], input[type="text"], textarea.md-textarea {
+		text-transform:uppercase
+		}
+		.input[typee="email"], textarea.md-textarea{
+		text-transform: lowercase;
+		}
+		/* Gender Radio Buttons*/
+		
+		[type="radio"]:checked + label::after{   top: -4px;
+		top: -4px;
+		left: -7px;
+		width: 12px;
+		height: 26px;
+		border-top: 2px solid transparent;
+		border-left: 2px solid transparent;
+		border-right: 4px solid #1AB90F;
+		border-bottom: 7px solid #10AD18;
+		-webkit-transform: rotate(40deg);
+		-moz-transform: rotate(40deg);
+		-ms-transform: rotate(40deg);
+		-o-transform: rotate(40deg);
+		transform: rotate(40deg);
+		-webkit-backface-visibility: hidden;
+		-webkit-transform-origin: 100% 100%;
+		-moz-transform-origin: 100% 100%;
+		-ms-transform-origin: 100% 100%;
+		-o-transform-origin: 100% 100%;
+		transform-origin: 100% 100%;}
+		
+		.card .form-header {
+		color: #fff;
+		align-content: center;
+		text-align: center;
+		margin-top: -60px;
+		margin-bottom: 3rem;
+		padding: 0.1%;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+		-o-border-radius: 2px;
+		border-radius: 25px;
+		}
+		.cn {
+		margin-left: 6%;
+		margin-right: 5%;
+		}
+		.nav-tabs {
+		border: 0;
+		padding: .7rem;
+		margin-left: 1rem;
+		padding-left: 29%;
+		margin-right: 1rem;
+		margin-bottom: -20px;
+		z-index: 2;
+		position: relative;
+		}
+		.opt {
+			font-size: 15px;
+				letter-spacing: 6px;
+			}
+			.bg{background-image: url(http://192.168.43.169/Vivah_MDB/img/images/FormImg.jpg); }
+			.op {
+		font-size: 22px;
+		letter-spacing: 9px;
+		font-weight: 400;
+		}
+		.op.active{
+		background-color: green;
+		}
+		</style>
+		<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+			$(document).ready(function() {
+		$('.mdb-select').material_select();
+		});
+		</script>
+	</head>
+	<body>
+<div class="container">		
+	<div class="row">
+		<div class="col-md-4">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs md-pills pills-primary" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#basicdetailstab" role="tab" style="font-size: 18px;">Basic Details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#educationaldetailstab" role="tab" style="font-size: 18px;">Education Details</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#familydetailstab" role="tab" style="font-size: 18px;">Family Details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="col-md-8">
+			<!-- Tab panels -->
+			<div class="tab-content vertical">
+				<br>
+				<!--Panel 1-->
+				<div class="tab-pane fade in active" id="basicdetailstab" role="tabpanel">
+					<div class="container">
+					<div id="basicdetails">
+					<div class="col-md-12">
+					<button id="basicdetailseditbtn" class="btn btn-primary Frm" style="margin-left: 400px;padding: 0px 5px 0px 5px;">Edit</button>
+					</div>
+					<div class="col-md-3">
+						<span style="font-size: 21px;">Name</span>
+					</div>
+					<div class="col-md-9">
+						<div class="md-form">
+							<input type="text" id="name" class="form-control" value="SURESH SHIVAJI THITE" style="font-size: 18px;width: 270px;"readonly>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<span style="font-size: 21px;">Address</span>
+					</div>
+					<div class="col-md-9">
+						<div class="md-form">
+							<input align="center" type="text" id="address" class="form-control" value="At Pune" style="font-size: 18px;width: 270px;"readonly>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<span style="font-size: 21px;">Religon</span>
+					</div>
+					<div class="col-md-9">
+						<div class="md-form">
+							<input type="text" id="Religon" class="form-control" value="Hindu" style="font-size: 18px;width: 270px;"readonly>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<span style="font-size: 21px;">I am</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="iam" class="form-control" value="Single" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+					<div class="col-md-3">
+						<span style="font-size: 21px;">Work Status</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="workstatus" class="form-control" value="Student" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+					<div class="col-md-3">
+						<span style="font-size: 21px;">Annual Income</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="income" class="form-control" value="2 lac" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Height</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="height" class="form-control" value="5'2'" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Mother Tongue</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="mothertongue" class="form-control" value="Marathi" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+					<div class="col-md-3">
+						<span style="font-size: 21px;">Adhar Card</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="mothertongue" class="form-control" value="145026358486" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+					</div>
+						<!-- edit section -->
+						<div id="basicdetailsedit">
+						
+								<div class="col-md-3 ">
+									<span style="font-size: 21px;">Name</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<input type="text" id="name" class="form-control">
+												<label for="name" class="Ltr">Name</label>
+											</div>
+										</div>                                
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">Address</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+                                                <textarea type="text" id="address" class="md-textarea"></textarea>
+                                                <label for="address">Address</label>
+                                            </div>
+										</div>
+
+										<div class="col-md-3">
+											<span style="font-size: 21px;">Religon</span>
+										</div>
+										<div class="col-md-3">
+											<div class="md-form">
+												<input type="text" id="Religon" class="form-control">
+												<label for="Religon" class="Ltr">Religon</label>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="md-form">
+												<input type="text" id="Cast" class="form-control">
+												<label for="Cast" class="Ltr">Cast</label>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="md-form">
+												<input type="text" id="SubCast" class="form-control">
+												<label for="SubCast" class="Ltr">Sub Cast</label>
+											</div>
+										</div>
+										<div class="col-md-12" style="margin-left:-15px;">
+										<div class="col-md-3">
+											<span style="font-size: 21px;">I am
+											<i class="fa fa-mail" aria-hidden="true"></i></span>
+										</div>
+										<div class="col-md-3">
+											<div class="md-form">
+												<fieldset class="form-group">
+													<input name="Relation" type="radio" id="YetSingle" value="YetSingle" required>
+													<label for="YetSingle" style="font-size: 19px;">Yet Single</label>
+												</fieldset>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="md-form">
+												<fieldset class="form-group">
+													
+													<input name="Relation" type="radio" id="Devorcy" value="Devorcy">
+													<label for="Devorcy" style="font-size: 19px;">Devorcy</label>
+												</fieldset>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="md-form">
+												<fieldset class="form-group">
+													
+													<input name="Relation" type="radio" id="Widow" value="Widow">
+													<label for="Widow" style="font-size: 19px;">Widow</label>
+												</fieldset>
+											</div>
+										</div>
+										</div>
+										
+										<div class="col-md-12" style="margin-left: -15px;">
+										<div class="col-md-3">
+											<span style="font-size: 21px;">Work Status
+											<i class="fa fa-mail" aria-hidden="true"></i></span>
+										</div>
+								 		<div class="col-md-3">
+											<div class="md-form">
+												<fieldset class="form-group">
+													<input name="Work" type="radio" id="SearchingJob" value="SearchingJob">
+													<label for="SearchingJob" style="font-size: 19px;">No Job</label>
+												</fieldset>
+											</div>
+										</div>
+										
+										<div class="col-md-3">
+											<div class="md-form">
+												<fieldset class="form-group">
+													<input name="Work" type="radio" id="Employee" value="Employee">
+													<label for="Employee" style="font-size: 19px;">Employee</label>
+												</fieldset>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="md-form">
+												<fieldset class="form-group">
+													<input name="Work" type="radio" id="BuisnessOwner" value="BuisnessOwner">
+													<label for="BuisnessOwner" style="font-size: 19px;">Buisness Owner</label>
+												</fieldset>
+											</div>
+										</div>
+										</div>
+
+										<div class="col-md-3">
+											<span style="font-size: 21px;">Height
+											<i class="fa fa-mail" aria-hidden="true"></i></span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<fieldset class="form-group">
+													<div class="md-form">
+														<label for="Height"></label>
+														<select class="form-control opt" id="Height" required>
+															<option class="op" disabled selected>Select Height</option>
+															<option class="op"  value="34">3 ft - 4 ft</option>
+															<option class="op" value="45">4 ft - 5 ft</option>
+															<option class="op" value="54">5 ft - 6 ft</option>
+															<option class="op" value="67">6 ft - 7 ft</option>
+															<option class="op" value="78">7 ft - 8 ft</option>
+															
+														</select>
+													</div>
+												</fieldset>
+											</div>
+										</div>
+
+										<div class="col-md-3">
+											<span style="font-size: 21px;">Annual Income
+											<i class="fa fa-mail" aria-hidden="true"></i></span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<fieldset class="form-group">
+													<div class="md-form">
+														<label for="Income"></label>
+														<select class="form-control opt" id="Income" required>
+															<option class="op" class="op" disabled selected>Select Yearly Income</option>
+															<option class="op"  value="2">Below 2 Lac</option>
+															<option class="op" value="2-5">2 Lac - 5 Lac</option>
+															<option class="op" value="5-10">5 Lac - 10 Lac</option>
+															<option class="op" value="10-15">10 Lac - 15 Lac</option>
+															<option class="op" value="15">Above 15 Lac</option>
+															
+														</select>
+													</div>
+												</fieldset>
+											</div>
+										</div>
+
+										<div class="col-md-3">
+											<span style="font-size: 21px;">Mother Tongue
+											<i class="fa fa-mail" aria-hidden="true"></i></span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<fieldset class="form-group">
+													<div class="md-form">
+														<label for="Income"></label>
+														<select class="form-control opt" id="Income" required>
+															<option class="op" class="op" disabled selected>Language</option>
+															<option class="op"  value="marathi">Marathi</option>
+															<option class="op" value="english">English</option>
+															<option class="op" value="hindi">Hindi</option>
+														</select>
+													</div>
+												</fieldset>
+											</div>
+										</div>
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">Adhar Card </span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<input type="number" id="Religon" class="form-control" required>
+												<label for="adharcard" class="Ltr">Adhar Card No</label>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<!-- <button class="btn btn-success Frm">SAVE</button> -->
+										</div>
+										<div class="col-md-3">
+											<button class="btn btn-primary Frm" style="padding: 10px 22px 10px 22px;">SAVE</button>
+										</div>
+										<div class="col-md-3">
+											<button class="btn btn-primary Frm" style="padding: 10px 10px 10px 10px;" id="basiccancel">CANCEL</button>
+										</div>
+										<div class="col-md-3">
+											<!-- <button class="btn btn-success Frm">CANCEL</button> -->
+										</div>
+										
+										
+									
+									<!-- Submit And Create Account Of User -->
+								</div>
+					</div>
+				</div>
+				<!--/.Panel 1-->
+
+				<!--Panel 2-->
+				<div class="tab-pane fade" id="educationaldetailstab" role="tabpanel">
+				<div class="container">
+					<div id="educationaldetails">
+					<div class="col-md-12">
+					<button id="educationaldetailseditbtn" class="btn btn-primary Frm" style="margin-left: 400px;padding: 0px 5px 0px 5px;">Edit</button>
+					</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Degree</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="degree" class="form-control" value="MCS" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">UG Degree</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="ugdegree" class="form-control" value="BCS" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">UG College</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="ugcollege" class="form-control" value="VP College" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">PG College</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="pgcollege" class="form-control" value="Modern College" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+				</div>
+				
+				<div id="educationaldetailsedit">
+						<!--Body-->
+								<!-- <div class="row card">
+									<div class=card-title>
+										<br/>
+										
+										</div>  -->  <!--First column-->
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">Degree</span>
+										</div>
+										<div class="col-md-4">
+											<div class="md-form">
+												<div class="md-form">
+													<label for="Degree"></label>
+													<select class="form-control opt" id="Degree">
+														<option class="op" class="op" disabled selected>Highest Degree</option>
+														<option class="op"  value="Bacholor">Bachelor</option>
+														<option class="op" value="Pg">Post Graduate</option>
+														<option class="op" value="En">Engineer</option>
+														<option class="op" value="Doc">Doctor</option>
+														<option class="op" value="Iti">ITI</option>
+														<option class="op" value="mba">MBA</option>								<option class="op" value="Other">Something Different</option>
+														
+													</select>
+												</div>
+											</div>
+										</div>
+										<!--Second column-->
+										<div class="col-md-5">
+											<div class="md-form">
+												<input type="text" id="Ed" class="form-control">
+												<label for="Ed" class="Ltr">Specialization</label>
+											</div>
+										</div>
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">UG Degree</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<div class="md-form">
+													<label for="Degree"></label>
+													<select class="form-control opt" id="Degree">
+														<option class="op" class="op" disabled selected>Not filled in</option>
+														<option class="op"  value="ba">B.A</option>
+														<option class="op" value="bcom">B.Com</option>
+														<option class="op" value="be">B.E</option>
+														<option class="op" value="bsc">B.Sc</option>
+														<option class="op" value="bhms">BHMS</option>
+														<option class="op" value="bdms">BDMS</option>								<option class="op" value="Other">Something Different</option>
+														
+													</select>
+												</div>
+											</div>
+										</div>					
+									<!-- </div>
+									
+									<div class="row card">
+									<div class=card-title>
+										<br/>
+										</div>  -->  <!--First column-->
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">UG College</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<input type="text" id="ugname" class="form-control">
+												<label for="Ed" class="Ltr">College Name</label>
+											</div>
+										</div>
+									<!-- </div>
+									
+									<div class="row card">
+									<div class=card-title>
+										<br/>
+										</div>  -->  <!--First column-->
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">PG College</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<input type="text" id="pgname" class="form-control">
+												<label for="Ed" class="Ltr">College Name</label>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<!-- <button class="btn btn-success Frm">SAVE</button> -->
+										</div>
+										<div class="col-md-3">
+											<button class="btn btn-primary Frm" style="padding: 10px 22px 10px 22px;">SAVE</button>
+										</div>
+										<div class="col-md-3">
+											<button class="btn btn-primary Frm" style="padding: 10px 10px 10px 10px;" id="educationalcancel">CANCEL</button>
+										</div>
+										<div class="col-md-3">
+											<!-- <button class="btn btn-success Frm">CANCEL</button> -->
+										</div>
+										
+										
+								
+				
+				</div>
+				</div>    		<!-- container -->
+				</div>
+				<!--/.Panel 2-->
+
+				<!--Panel 3-->
+				<div class="tab-pane fade" id="familydetailstab" role="tabpanel">
+					<div class="container">
+					<div id="familydetails">
+					<div class="col-md-12">
+					<button id="familydetailseditbtn" class="btn btn-primary Frm" style="margin-left: 400px;padding: 0px 5px 0px 5px;">Edit</button>
+					</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Family Type</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="familytype" class="form-control" value="Joint" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Members</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="members" class="form-control" value="7" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Mother is</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="mother" class="form-control" value="Housewife" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Father is</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="father" class="form-control" value="Farmer" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Brothers</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="brothers" class="form-control" value="1" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Sisters</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="sisters" class="form-control" value="1" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Gothra</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="gothra" class="form-control" value="jhdjdhh" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+						<div class="col-md-3">
+						<span style="font-size: 21px;">Family Income</span>
+						</div>
+						<div class="col-md-9">
+							<div class="md-form">
+								<input type="text" id="income" class="form-control" value="42000" style="font-size: 18px;width: 270px;"readonly>
+							</div>
+						</div>
+				</div>
+				
+				<div id="familydetailsedit">
+						<div class="col-md-3 ">
+							<span style="font-size: 21px;">Family Type</span>
+						</div>
+							<div class="col-md-3">
+								<div class="md-form">
+									<fieldset class="form-group">
+										<input name="FamilyType" type="radio" id="Nuclear" value="Nuclear">
+										<label for="Nuclear" style="font-size: 19px;">Nuclear</label>
+									</fieldset>											
+									</div>
+								</div>
+								<!--Second column-->
+								<div class="col-md-3">
+									<div class="md-form">
+										<fieldset class="form-group">
+											<input name="FamilyType" type="radio" id="Joint" value="Joint">
+											<label for="Joint" style="font-size: 19px;">Joint</label>
+										</fieldset>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="md-form">
+										<fieldset class="form-group">
+											<input name="FamilyType" type="radio" id="Extended" value="Extended">
+											<label for="Extended" style="font-size: 19px;">Extended</label>
+										</fieldset>
+									</div>
+								</div>
+						
+								<div class="col-md-3">
+									<span style="font-size: 21px;">No Of Members
+									<i class="fa fa-mail" aria-hidden="true"></i></span>
+								</div>
+								<div class="col-md-9">
+									<div class="md-form">
+										<label for="Degree"></label>
+										<select class="form-control opt" id="Degree">
+											<option class="op" class="op" disabled selected>Select No Of Members In Family</option>
+											<option class="op"  value="1">1</option>
+											<option class="op" value="2">2</option>
+											<option class="op" value="3">3</option>
+											<option class="op" value="4">4</option>
+											<option class="op" value="5">5</option>
+											<option class="op" value="6">6</option>								<option class="op" value="67">More Than 6</option>
+											
+										</select>
+									</div>
+								</div>
+												<div class="col-md-3">
+													<span style="font-size: 21px;">Mother is
+													<i class="fa fa-mail" aria-hidden="true"></i></span>
+												</div>
+												<div class="col-md-9">
+													<div class="md-form">
+														<label for="Degree"></label>
+														<select class="form-control opt" id="Degree">
+															<option class="op" class="op" disabled selected>Select</option>
+															<option class="op"  value="housewife">House Wife</option>
+															<option class="op" value="serviceprivate">Service-Private</option>
+															<option class="op" value="teacher">Teacher</option>
+															<option class="op" value="retired">Retired</option>
+															<option class="op" value="civilservice">Civil Services</option>
+															<option class="op" value="businessenterprener">Business/Enterprener</option>
+														</select>
+													</div>
+												</div>
+				
+												<div class="col-md-3">
+													<span style="font-size: 21px;">Father is
+													<i class="fa fa-mail" aria-hidden="true"></i></span>
+												</div>
+												<div class="col-md-9">
+													<div class="md-form">
+														<label for="Degree"></label>
+														<select class="form-control opt" id="Degree">
+															<option class="op" class="op" disabled selected>Select</option>
+															<option class="op" value="serviceprivate">Service-Private</option>
+															<option class="op" value="teacher">Teacher</option>
+															<option class="op" value="retired">Retired</option>
+															<option class="op" value="civilservice">Civil Services</option>
+															<option class="op" value="businessenterprener">Business/Enterprener</option>			
+														</select>
+													</div>
+												</div>
+											
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">Brother</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<input type="number" id="brother" class="form-control" required>
+												<label for="brother" class="Ltr">How many Brothers ?</label>
+											</div>
+										</div>
+									
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">Sister</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<input type="number" id="sister" class="form-control" required>
+												<label for="sister" class="Ltr">How many Sisters ?</label>
+											</div>
+										</div>
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">Gothra</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<input type="text" id="Gothra" class="form-control" required>
+												<label for="Gothra" class="Ltr">Gothra</label>
+											</div>
+										</div>									
+										<div class="col-md-3 ">
+											<span style="font-size: 21px;">Family Income</span>
+										</div>
+										<div class="col-md-9">
+											<div class="md-form">
+												<input type="number" id="familyincome" class="form-control" required>
+												<label for="familyincome" class="Ltr">Not filled in</label>
+											</div>
+										</div>
+											<div class="col-md-3">
+											<!-- <button class="btn btn-success Frm">SAVE</button> -->
+										</div>
+										<div class="col-md-3">
+											<button class="btn btn-primary Frm " style="padding: 10px 22px 10px 22px;">SAVE</button>
+										</div>
+										<div class="col-md-3">
+											<button class="btn btn-primary Frm" style="padding: 10px 10px 10px 10px;" id="familycancel">CANCEL</button>
+										</div>
+										<div class="col-md-3">
+											<!-- <button class="btn btn-success Frm">CANCEL</button> -->
+										</div>
+				</div>
+				</div>		<!-- container -->
+				</div>
+				<!--/.Panel 3-->
+
+			</div>
+		</div>
+        
+        <script>
+							$(document).ready(function(){
+								
+								$("#basicdetailsedit").hide();
+								$("#educationaldetailsedit").hide();
+								$("#familydetailsedit").hide();
+							    $("#basicdetailseditbtn").click(function(){
+							        $("#basicdetails").hide();
+							        $("#basicdetailsedit").show();
+							    });
+
+							     $("#educationaldetailseditbtn").click(function(){
+							        $("#educationaldetails").hide();
+							        $("#educationaldetailsedit").show();
+							    });
+
+							      $("#familydetailseditbtn").click(function(){
+							        $("#familydetails").hide();
+							        $("#familydetailsedit").show();
+							    });
+								
+								$("#basiccancel").click(function(){
+							        $("#basicdetailsedit").hide();
+									$("#basicdetails").show();
+							    });
+								
+								$("#educationalcancel").click(function(){
+							        $("#educationaldetailsedit").hide();
+									$("#educationaldetails").show();
+							    });
+								
+								$("#familycancel").click(function(){
+							        $("#familydetailsedit").hide();
+									$("#familydetails").show();
+							    });
+							});
+						</script>
+						
+						
+
+
+						<!--*********************        Script       ***********************-->
+						<!-- JQuery -->
+						
+						<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+						<!-- Bootstrap tooltips -->
+						<script type="text/javascript" src="js/tether.min.js"></script>
+						<!-- Bootstrap core JavaScript -->
+						<script type="text/javascript" src="js/bootstrap.min.js"></script>
+						<!-- MDB core JavaScript -->
+						<script type="text/javascript" src="js/mdb.min.js"></script>
+						
+						<!--**********************        /Script      **********************-->
+					</body>
+				</html>
